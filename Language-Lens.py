@@ -5,27 +5,6 @@ from azure.cognitiveservices.vision.computervision.models import OperationStatus
 from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
 from msrest.authentication import CognitiveServicesCredentials
 import requests
-from PIL import Image, ImageDraw, ImageFont, ImageTk
-from PIL import Image, ImageTk
-from azure.ai.textanalytics import TextAnalyticsClient
-from azure.core.credentials import AzureKeyCredential
-
-
-API_KEY = "c61131d36b754e329847d53e0e127082"
-ENDPOINT = "https://sentiment-1.cognitiveservices.azure.com/"
-computervision_client = ComputerVisionClient(ENDPOINT, CognitiveServicesCredentials(API_KEY))
-
-TEXT_ANALYTICS_KEY = "c61131d36b754e329847d53e0e127082"
-TEXT_ANALYTICS_ENDPOINT = "https://sentiment-1.cognitiveservices.azure.com/"
-text_analytics_client = TextAnalyticsClient(endpoint=TEXT_ANALYTICS_ENDPOINT, credential=AzureKeyCredential(TEXT_ANALYTICS_KEY))
-
-import tkinter as tk
-from tkinter import filedialog
-from azure.cognitiveservices.vision.computervision import ComputerVisionClient
-from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
-from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
-from msrest.authentication import CognitiveServicesCredentials
-import requests
 from PIL import Image, ImageDraw, ImageFont
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
