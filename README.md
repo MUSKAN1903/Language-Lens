@@ -28,16 +28,16 @@ Extracting Text and Detecting Language from images using MS Azure AI services
 
 ### How we get there
 - **Input Image**
-* The user uploads an image to the system. 
-* The image should contain text written in any language which is supported by the system.
+> * The user uploads an image to the system. 
+> * The image should contain text written in any language which is supported by the system.
 
 - **Text Detection**
-* The Computer Vision API is used to perform OCR on an uploaded image.
-* The OCR process extracts text from the image and returns the text as a string. The extracted text is then displayed in a text box on the GUI.
+> * The Computer Vision API is used to perform OCR on an uploaded image.
+> * The OCR process extracts text from the image and returns the text as a string. The extracted text is then displayed in a text box on the GUI.
 
 - **Language Identification**
-* The Azure Text Analytics service is used to identify the language of the extracted text.
-* This involves analyzing the text and determining the most likely language it is written in.
+> * The Azure Text Analytics service is used to identify the language of the extracted text.
+> * This involves analyzing the text and determining the most likely language it is written in.
 
 ## Glimpses
 
