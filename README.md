@@ -3,7 +3,7 @@ Extracting Text and Detecting Language from images using MS Azure AI cognitive s
 
 # INTRODUCTION
 - In the digital world, images are a common source of data, but the text in them can be hard to extract and use.
-- Optical Character Recognition (OCR) technology helps extract text from images.
+- Optical Character Recognition (OCR) technology helps extract text from images. 
 - Azure Cognitive Services offers OCR capabilities and other features for image analysis.
 - Developers can easily incorporate image text detection and analysis into their applications with Azure Cognitive Services.
 - Language detection identifies the language of text within images.
