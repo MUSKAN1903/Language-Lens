@@ -1,5 +1,5 @@
 # Language-Lens
-Extracting Text and Detecting Language from images using MS Azure AI services
+Extracting Text and Detecting Language from images using MS Azure AI cognitive services
 
 # INTRODUCTION
 - In the digital world, images are a common source of data, but the text in them can be hard to extract and use.
